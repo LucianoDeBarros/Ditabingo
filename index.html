@@ -9,19 +9,27 @@
 <body>
     <div class="container">
         <h1>Ditador de Bingo</h1>
-        <!-- Botão para sortear números -->
-        <button id="drawButton">Sortear Número</button>
-        <!-- Botão para conferir números sorteados -->
-        <button id="checkNumbersButton">Conferir Números Sorteados</button>
-        <!-- Div para exibir o número sorteado -->
-        <div id="result">Clique para sortear o número</div>
-        <!-- Div para exibir a lista de números sorteados -->
+        <!-- Seleção do modo de bingo -->
+        <label for="bingoMode">Escolha o modo de bingo:</label>
+        <select id="bingoMode">
+            <option value="numbers">Números</option>
+            <option value="letters">Letras</option>
+        </select>
+        <!-- Botão para sortear números ou letras -->
+        <button id="drawButton">Sortear</button>
+        <!-- Botão para conferir números/letras sorteados -->
+        <button id="checkNumbersButton">Conferir Sorteados</button>
+        <!-- Div para exibir o resultado sorteado -->
+        <div id="result">Escolha um modo e clique para sortear</div>
+        <!-- Div para exibir a lista de sorteios -->
         <div id="sortedNumbers"></div>
     </div>
 
     <!-- Rodapé -->
     <footer>
-        <p>&copy; 2024 Ditador de Bingo. Todos os direitos reservados.</p>
+        <p>UNIVESP - Projeto Integrador em Computação II - Desenvolvido por: Daniele, Denivaldo, Márcia e Luciano</>
+		<p>&copy; 2024 Ditador de Bingo. Todos os direitos reservados.</p>
+		
     </footer>
 
     <script src="script.js"></script>

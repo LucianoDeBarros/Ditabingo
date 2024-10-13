@@ -36,7 +36,6 @@ button:hover {
     font-weight: bold;
 }
 
-/* Estilo para a lista de números sorteados */
 #sortedNumbers {
     margin-top: 20px;
     font-size: 18px;
@@ -44,7 +43,6 @@ button:hover {
     text-align: center;
 }
 
-/* Estilo para o rodapé */
 footer {
     background-color: #007bff;
     color: white;
